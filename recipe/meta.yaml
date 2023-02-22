@@ -1,5 +1,5 @@
 {% set name = "pygments-ansi-color" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/chriskuehl/pygments-ansi-color/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d93d571aa3c855b8bdf1e094324a8abe10c7b0dbc7fc517f60b426f59fb86f14
+  sha256: 72fcd1debaeaa34220b09a60cfe6e4b75c996b7f8fcc2c881a3b87c03fa7913f
 
 build:
   noarch: python
